@@ -6,7 +6,10 @@ const {execFile} = require('child_process');
 const cwebp = require('cwebp-bin');
 const Config = require('../config');
 
-Asena.addCommand({pattern: 'jidvoice ?(.*)', fromMe: true, desc: Sending Voice Using Jid}, (async (message, match) => {    
+const Language = require('../language');
+const Lang = Language.getString('unvoice'); // Language support
+
+Asena.addCommand({pattern: 'voice ?(.*)', fromMe: true, desc: Lang.UV_DESC}, (async (message, match) => {    
     if (message.reply_message === false);
     var location = await message.client.downloadAndSaveMediaMessage({
         key: {
