@@ -68,9 +68,7 @@ async function whatsAsena () {
         }
     });
 
-    conn.sendMessage(conn.user.jid, '*===== [ 📢 ʟɪͥʏͭᴀᷤᴍᷟᴏͤʟ Announcement 📢 ] =====*\n\n👋 Enthokke und machane Sukhamalle 😂\n\n💖 Thank You For Using liyamol\n\n\n\n creater saidali\nwa.me/+918606759500', MessageType.text)
-    
-    
+  
     const conn = new WAConnection();
     conn.version = [2,2121,7];
     const Session = new StringSession();
