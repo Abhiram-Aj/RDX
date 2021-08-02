@@ -86,6 +86,11 @@
             "required": false,
             "value": "default"
         },
+         "TAG_HEADER": {
+            "description": "Heading when taging all",
+            "required": false,
+            "value": "hear me friends"
+        },
         "BLOCK_MESSAGE": {
             "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",
             "required": false,
