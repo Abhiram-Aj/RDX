@@ -49,8 +49,8 @@
         },
         "FULL_EVA": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
-            "required": true,
-            "value": "false"
+            "required": false,
+            "value": "true"
         },
         "NO_LOG": {
             "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
