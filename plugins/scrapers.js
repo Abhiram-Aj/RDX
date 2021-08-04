@@ -1,5 +1,4 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
@@ -838,22 +837,6 @@ else if (config.WORKTYPE == 'public') {
             return await message.client.sendMessage(message.jid,Lang.TRANSLATE_ERROR,MessageType.text)
         }
     }));
-     Asena.addCommand({pattern: '2img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
-
-        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
-        gis(match[1], async (error, result) => {
-            for (var i = 0; i < (result.length < 2 ? result.length : 2); i++) {
-                var get = got(result[i].url, {https: {rejectUnauthorized: false}});
-                var stream = get.buffer();
-                
-                stream.then(async (image) => {
-                    await message.client.sendMessage(message.jid,image, MessageType.image);
-                });
-            }
-
-            message.reply(Lang.IMG.format((result.length < 2 ? result.length : 2), match[1]));
-        });
-    }));
     Asena.addCommand({pattern: 'detectlang$', fromMe: false, desc: dlang_dsc}, (async (message, match) => {
 
         if (!message.reply_message) return await message.client.sendMessage(message.jid,Lang.NEED_REPLY, MessageType.text)
@@ -903,7 +886,7 @@ else if (config.WORKTYPE == 'public') {
             }
         }
     }));
-
+    
     Asena.addCommand({pattern: 'tts (.*)', fromMe: false, desc: Lang.TTS_DESC}, (async (message, match) => {
 
         if(match[1] === undefined || match[1] == "")
@@ -927,7 +910,7 @@ else if (config.WORKTYPE == 'public') {
             text: ttsMessage,
             voice: LANG
         });
-        await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
+        await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio,quoted: message.data,  ptt: true});
     }));
 
     Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
@@ -959,7 +942,7 @@ else if (config.WORKTYPE == 'public') {
                 writer.addTag();
 
                 reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SONG,MessageType.text);
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: false});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio,quoted: message.data,  ptt: false});
             });
     }));
 
@@ -986,7 +969,7 @@ else if (config.WORKTYPE == 'public') {
 
         yt.on('end', async () => {
             reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_VIDEO,MessageType.text);
-            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {mimetype: Mimetype.mp4});
+            await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {quoted: message.data , mimetype: Mimetype.mp4});
         });
     }));
 
@@ -1023,7 +1006,7 @@ else if (config.WORKTYPE == 'public') {
         await reply.delete();
     }));
 
-    Asena.addCommand({pattern: 'img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
+     Asena.addCommand({pattern: 'img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
@@ -1037,6 +1020,23 @@ else if (config.WORKTYPE == 'public') {
             }
 
             message.reply(Lang.IMG.format((result.length < 5 ? result.length : 5), match[1]));
+        });
+    }));
+    
+     Asena.addCommand({pattern: '2img ?(.*)', fromMe: false, desc: Lang.IMG_DESC}, (async (message, match) => { 
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
+        gis(match[1], async (error, result) => {
+            for (var i = 0; i < (result.length < 2 ? result.length : 2); i++) {
+                var get = got(result[i].url, {https: {rejectUnauthorized: false}});
+                var stream = get.buffer();
+                
+                stream.then(async (image) => {
+                    await message.client.sendMessage(message.jid,image, MessageType.image);
+                });
+            }
+
+            message.reply(Lang.IMG.format((result.length < 2 ? result.length : 2), match[1]));
         });
     }));
 
@@ -1098,6 +1098,38 @@ else if (config.WORKTYPE == 'public') {
 
         await message.client.sendMessage(message.jid, Buffer.from(buffer.data),  MessageType.image, {caption: `*${Slang.ARAT}* ` + '```' + `${match[1]}` + '```' + `\n*${Slang.BUL}* ` + '```' + tit + '```' + `\n*${Slang.AUT}* ` + '```' + son + '```' + `\n*${Slang.SLY}*\n\n` + aut });
 
+    }));
+     Asena.addCommand({pattern: 'sing ?(.*)', fromMe: false, desc: Lang.SING_DESC}, (async (message, match) => { 
+
+        if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SING,MessageType.text);    
+        let arama = await yts(match[1]);
+        arama = arama.all;
+        if(arama.length < 1) return await message.client.sendMessage(message.jid,Lang.NO_RESULT,MessageType.text);
+        var reply = await message.client.sendMessage(message.jid,Lang.DOWNLOADING_SONG,MessageType.text);
+
+        let title = arama[0].title.replace(' ', '+');
+        let stream = ytdl(arama[0].videoId, {
+            quality: 'highestaudio',
+        });
+    
+        got.stream(arama[0].image).pipe(fs.createWriteStream(title + '.jpg'));
+        ffmpeg(stream)
+            .audioBitrate(320)
+            .save('./' + title + '.mp3')
+            .on('end', async () => {
+                const writer = new ID3Writer(fs.readFileSync('./' + title + '.mp3'));
+                writer.setFrame('TIT2', arama[0].title)
+                    .setFrame('TPE1', [arama[0].author.name])
+                    .setFrame('APIC', {
+                        type: 3,
+                        data: fs.readFileSync(title + '.jpg'),
+                        description: arama[0].description
+                    });
+                writer.addTag();
+
+                reply = await message.client.sendMessage(message.jid,Lang.UPLOADING_SING,MessageType.text);
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.audio, {mimetype: Mimetype.mp4Audio, ptt: true});
+            });
     }));
 
     Asena.addCommand({pattern: "covid ?(.*)", fromMe: false, desc: Clang.COV_DESC}, (async (message, match) => {
