@@ -54,6 +54,13 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
     }
 }));
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
+    
+           
+     if (message.jid === '919383400679-1627924673@g.us') {
+
+            return;
+        } 
+
         if (!!message.mention && message.mention[0] == '918606759500@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/Mention.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
@@ -114,12 +121,6 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
 }));
 
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
-       
-     if (message.jid === '919383400679-1627924673@g.us') {
-
-            return;
-        } 
-
     if(Config.BGMFILTER){
     let banned = jid.find( Jid => Jid === message.jid);
     if(banned !== undefined) return
