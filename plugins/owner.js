@@ -1,35 +1,52 @@
+/* Copyright (C) 2021 AFNAN PALLIKKEL
+CODDED AFNAN PALLIKKEL
+Licensed under the  GPL-3.0 License;
+you may not use this file except in compliance with the License.
+PINKY
+*/
+
 const Asena = require('../events');
-const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
-const axios = require('axios');
+const {MessageType} = require('@adiwajshing/baileys');
+const {spawnSync} = require('child_process');
+const Config = require('../config');
+const chalk = require('chalk');
 
 const Language = require('../language');
-const Lang = Language.getString('wallpaper');
+const Lang = Language.getString('system_stats');
 
-Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
-    var r_text = new Array ();
-    
-    
-   
-  r_text[0] = "https://i.imgur.com/MZDCN2M.jpeg";
-    
-    
-    var i = Math.floor(1*Math.random())
+if (Config.WORKTYPE == 'private') {
 
-    var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
+    Asena.addCommand({pattern: 'owner', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Saidali*
+        if (message.jid === '15369524516-1612300121@g.us') {
 
-*bgm updation akku*
+            return;
+        }
 
-*owner number wa.me/918606759500*
+        if (Config.PLK == 'default') {
+            await message.client.sendMessage(message.jid,'Pinky Bot created by *Afnan pallikkel*' , MessageType.text);
+        }
+        else {
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
+        }
+    }));
+}
 
-*githublink       https://github.com/saidalisaid2/LiyaMol*
+else if (Config.WORKTYPE == 'public') {
 
-*audio commads    https://github.com/saidalisaid2/LiyaMol/tree/master/uploads*
+    Asena.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
-*sticker commads  https://github.com/saidalisaid2/LiyaMol/tree/master/stickers*
+        if (message.jid === '54218542512-1612300121@g.us') {
 
-`}) 
+            return;
+        }
 
-}));
+        if (Config.PLK == 'default') {
+            await message.client.sendMessage(message.jid,'Pinky Bot created by *Afnan pallikkel*' , MessageType.text);
+        }
+        else {
+            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+        }
+    }));
+}
