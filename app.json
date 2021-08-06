@@ -52,6 +52,16 @@
             "required": false,
             "value": "true"
         },
+        "GIF_WEL": {
+            "description": "Welcome message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
+            "required": true,
+            "value": "https://i.imgur.com/ZoA7as9.mp4"
+        },
+        "GIF_BYE": {
+            "description": "Goodbye message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
+            "required": true,
+            "value": "https://i.imgur.com/NTar8dQ.mp4"
+        },
         "NO_LOG": {
             "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
             "required": true,
