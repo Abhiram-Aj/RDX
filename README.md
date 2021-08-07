@@ -53,6 +53,7 @@ Click WA logo to Join Support Group 👇
 <div align="center">
 
   ### Simple Method
+*THIS PROJECT MEANTANCE DO NOT USE THIS BOT*
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
