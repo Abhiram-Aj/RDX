@@ -1,3 +1,7 @@
+*THIS PROJECT MEANTANCE DO NOT USE THIS BOT*
+
+
+
 <div align="center">
 ꜱͥᴀͭɪᴅᷤᴀᷟʟͤɪ 
 <div align="center">
