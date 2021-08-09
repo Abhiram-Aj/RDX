@@ -1,5 +1,4 @@
-/*codded by farhan-dqz
-plk
+/*codded by ameer-kallumthodi
 */
 
 const Asena = require('../events');
@@ -9,10 +8,10 @@ const IG_DESC = "Downloads Image/Video From Instagram"
 
 Asena.addCommand({ pattern: 'insta ?(.*)', fromMe: false, desc: IG_DESC }, async (message, match) => {
     //if(match[1] == '') return
-    let { data, type } = await instaGram(match[1], '8a8ebc8d8b932805');
+    let { data, type } = await instaGram(match[1], 'f3eaf19231f6201c');
     //if(type == undefined) return 
-    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: "Made By JulieMwol" }) }
-    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: "Made By JulieMwol" }) }
+    if (type === 'image') { await message.sendMessage(data, MessageType.image, { caption: "```Downloaded By AR```" }) }
+    else if (type === 'video') { await message.sendMessage(data, MessageType.video, { caption: "```Downloaded By AR```" }) }
 });
 //const axios = require('axios')
 async function instaGram(url, key){
