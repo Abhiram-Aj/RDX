@@ -1,4 +1,4 @@
-/* Copyright (C) 2020 saidalisaid2.
+/* Copyright (C) 2020 ameer-kallumthodi.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
@@ -64,7 +64,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex7 = new RegExp('mmmmmmmmmmm')
         let regex8 = new RegExp('umban')
         let regex9 = new RegExp('oombi')
-        let regex10 = new RegExp('myran')
+        let regex10 = new RegExp('Myr')
         if (regex1.test(message.message)) {
             var us = await checkUsAdmin(message)
             var im = await checkImAdmin(message)
