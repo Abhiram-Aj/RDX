@@ -50,7 +50,8 @@ Project created by <a href="https://github.com/ameer-kallumthodi">Ameer-Kallumth
 Click WA logo to Join Support Group 👇
     <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf)
+  <a href="https://chat.whatsapp.com/FsDjV2uRKce4wgMpAtYwyf" target="blank"><img align="center" src="https://i.hizliresim.com/pce1372.png" alt="kyrie.baran" height="200" width="200" /></a>
+</p>
 
 ## 
   <h3 align="center">📢 Support Group 2:</h3>
