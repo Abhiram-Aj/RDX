@@ -1,9 +1,8 @@
-/* Copyright (C) 2021 AFNAN PALLIKKEL
-CODDED AFNAN PALLIKKEL
-Re edited saidalisaid
+/* Copyright (C) 2021 Ameer Suhail
+CODDED Ameer Suhail
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-PINKY
+Pikachu
 */
 
 const Asena = require('../events');
@@ -26,7 +25,7 @@ if (Config.WORKTYPE == 'private') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'ʟɪͥʏͭᴀᷤᴍᷟᴏͤʟ Bot created by *saidali*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n---------------------', MessageType.text);
@@ -44,7 +43,7 @@ else if (Config.WORKTYPE == 'public') {
         }
 
         if (Config.PLK == 'default') {
-            await message.client.sendMessage(message.jid,'ʟɪͥʏͭᴀᷤᴍᷟᴏͤʟ Bot created by *Afnan pallikkel*' , MessageType.text);
+            await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
         }
         else {
             await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
