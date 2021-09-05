@@ -1,9 +1,9 @@
 {
-    "name": "Liya Mol",
+    "name": "Pikachu",
     "description": "WhatsAsena project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.imgur.com/MZDCN2M.jpeg",
+    "logo": "https://imgur.com/W0i7oMY.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/saidalisaid2/LiyaMol",
+    "repository": "https://github.com/ameer-kallumthodi-pikachu",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
@@ -132,7 +132,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *codded by ameer suhail* ```for commands```"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
