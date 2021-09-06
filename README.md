@@ -1,11 +1,8 @@
-## <!-- Typing SVG -->
-<p align="center">
-    <a href="https://git.io/J0hKr">
-        <img
-        src="https://readme-typing-svg.herokuapp.com?size=30&width=800&lines=Welcome+To+Ameer+Kallumthodi+Repo."
-            alt="Typing SVG"
-        />
-    </a>
+<div align="center">
+
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Pikachu+WA+Bot+repo;Created+by+Ameer+Suhail;This+is+the+Best++Bgm+bot;With+tons+of+features)](https://git.io/typing-svg)
+
+ </a>
 </p>
 <div align="center">
   <p align="center">
