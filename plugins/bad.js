@@ -61,7 +61,7 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         let regex4 = new RegExp('poor')
         let regex5 = new RegExp('https://chat.whatsapp.com/')
         let regex6 = new RegExp('andi')
-        let regex7 = new RegExp('mmmmmmmmmmm')
+        let regex7 = new RegExp('Fuck')
         let regex8 = new RegExp('umban')
         let regex9 = new RegExp('oombi')
         let regex10 = new RegExp('Myr')
