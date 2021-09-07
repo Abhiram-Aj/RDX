@@ -1,10 +1,3 @@
-/* Copyright (C) 2021 Ameer Suhail
-CODDED Ameer Suhail
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-Pikachu
-*/
-
 const Asena = require('../events');
 const {MessageType} = require('@adiwajshing/baileys');
 const {spawnSync} = require('child_process');
@@ -46,7 +39,7 @@ else if (Config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,'Pikachu Bot created by *Ameer Suhail*' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.PLK + '\n\n--------------------', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.PLK + '*HE IS MY BOSS*', MessageType.text);
         }
     }));
 }
