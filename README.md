@@ -76,7 +76,8 @@ If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Te
 ```
 bash <(curl -L https://t.ly/tHxh)
 ``` 
-  
+<div align="left">
+
 ### The Hard Method
 ```js
 GET QR
@@ -105,10 +106,10 @@ $ node bot.js
 
 ### ⚠️ Warning! 
 ```
-Due to Userbot; Your WhatsApp account may be banned.
+Due to Whatsapp bot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, Asena executives do not accept responsibility.
-By establishing the Asena, you are deemed to have accepted these responsibilities.
+Absolutely, Pikachu executives do not accept responsibility.
+By establishing the Pikachu, you are deemed to have accepted these responsibilities.
 ```
 
 ## Developers
