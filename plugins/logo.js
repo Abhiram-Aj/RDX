@@ -5,7 +5,7 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 
 const fs = require('fs');
 
-const config = require('./config');
+const Config = require('./config');
 
 const axios = require('axios');
 
