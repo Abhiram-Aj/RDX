@@ -6,7 +6,7 @@
 </p>
 <div align="center">
   <p align="center">
-<img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
+<img src="https://camo.githubusercontent.com/e411d550a4002d0f9f37d8af569ed07b836c7f8b1783c38bd84170aa8a468654/68747470733a2f2f692e696d6775722e636f6d2f4f61566a594c522e6a706567" alt="GIF" width="170" height="200"/>
 </p>
  <p align="center">
 <a href="#"><img title="AMEERKALLUMTHODI" src="https://img.shields.io/badge/AMEERSUHAIL-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
@@ -72,12 +72,16 @@ Click Pikachu logo to Join Support Group 2👇
      </div>
 <br>
 <br >
-If Repl.it not working Try Termux for Qr scanning.Just Copy the Link Below in Termux
-```
-bash <(curl -L https://t.ly/tHxh)
-``` 
-<div align="left">
+ 
+<div align="center">
 
+ <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg">
+ 
+ <div align="left">
+  
+  If Repl.it not working Try Termux for Qr scanning.Just Copy this Link Below in Termux
+```bash <(curl -L https://t.ly/tHxh)```
+            
 ### The Hard Method
 ```js
 GET QR
