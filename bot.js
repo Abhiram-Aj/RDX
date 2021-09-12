@@ -261,7 +261,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         // ==================== End External Plugins ====================
 
         console.log(
-            chalk.blueBright.italic(✅  Installed plugins...')
+            chalk.blueBright.italic('✅  Installed plugins...')
         );
 
         // ==================== Internal Plugins ====================
