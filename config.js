@@ -28,6 +28,7 @@ module.exports = {
     AUTOSTICKER: process.env.AUTO_STICKER === undefined ? 'true' : process.env.AUTO_STICKER,
     PLK: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
+    BOT_PRESENCE: process.env.BOT_PRESENCE === undefined ? 'online' : process.env.BOT_PRESENCE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
