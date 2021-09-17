@@ -465,12 +465,6 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                         '\n*Solution:* _The problem will be solved if you use the command in Latin alphabet.._'
                                         , MessageType.text
                                     );
-                                }
-                                else {
-                                    return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*🙇🏻 Sorry, I Couldnt Read This Error! 🙇🏻*' +
-                                        '\n_You can write to our support group for more help._'
-                                        , MessageType.text
-                                    );
                                 }    
                         }
                     }
