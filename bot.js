@@ -364,8 +364,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                         , MessageType.text
                                     );
                                 }
-                            }
-                            else {
+                                else {
                                
                                 if (error.message.includes('URL')) {
                                     return await WhatsAsenaCN.sendMessage(WhatsAsenaCN.user.jid, '*⚕️ ERROR ANALYSIS [WHATSASENA] ⚕️*' + 
