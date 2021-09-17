@@ -75,7 +75,7 @@ Click Pikachu logo to Join Support Group 2👇
  
 <div align="center">
 
- <img src="https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg">
+ [![Run on Repl.it](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)](https://bit.ly/2XqQKMU)
  
  <div align="left">
   
