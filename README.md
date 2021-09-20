@@ -1,9 +1,8 @@
 <a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/temporary/2ae6399b753c4a6e4d92490e52ae17fb.png" alt="google-font" border="0"></a>
-
+<div align="center">
 <details>
-    <div align="center">
         <summary>⏬ <b>CLICK ME 🤗</b></summary>
-    </div>
+
     
 <div align="center">
 
