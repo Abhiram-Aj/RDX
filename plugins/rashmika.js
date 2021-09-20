@@ -14,7 +14,7 @@ const Lang = Language.getString('rashmika');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'rashmika', fromMe: true, desc: Lang.EN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'rashmika', fromMe: true, desc: 'rashmika'}, (async (message, match) => {
 
     var r_text = new Array ();
 
@@ -229,7 +229,7 @@ var i = Math.floor(201*Math.random())
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'rashmika', fromMe: false, desc: Lang.EN}, (async (message, match) => {
+    Asena.addCommand({pattern: 'rashmika', fromMe: false, desc: 'rashmika'}, (async (message, match) => {
 
     var r_text = new Array ();
 
