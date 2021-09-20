@@ -1,5 +1,7 @@
 <a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/temporary/2ae6399b753c4a6e4d92490e52ae17fb.png" alt="google-font" border="0"></a>
 <div align="center">
+        <img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
+</p>
 <details>
         <summary>⏬ <b>CLICK ME 🤗</b></summary>
 
@@ -11,9 +13,6 @@
  </a>
 </p>
 <div align="center">
-  <p align="center">
-<img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
-</p>
  <p align="center">
 <a href="#"><img title="AMEERKALLUMTHODI" src="https://img.shields.io/badge/AMEERSUHAIL-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
