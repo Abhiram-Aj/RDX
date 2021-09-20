@@ -1,9 +1,10 @@
 <a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/temporary/2ae6399b753c4a6e4d92490e52ae17fb.png" alt="google-font" border="0"></a>
 
 <details>
-    <summary>⏬ <b>CLICK ME 🤗</b></summary>
-
-<div align="center">
+    <div align="center">
+        <summary>⏬ <b>CLICK ME 🤗</b></summary>
+    </div>
+    
 <div align="center">
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Pikachu+WA+Bot+repo;Created+by+Ameer+Suhail;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
