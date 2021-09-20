@@ -3,7 +3,7 @@
         <img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
 </p>
 <details>
-        <summary>⏬ <b>CLICK ME 🤗</b></summary>
+        <summary>⏬ <b>CLICK HERE TO SCAN AND DEPLOY🤗</b></summary>
 
     
 <div align="center">
