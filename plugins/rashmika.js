@@ -220,7 +220,7 @@ var i = Math.floor(201*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by Pikachu'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.document, {mimetype: Mimetype.png, caption: 'Made by Pikachu'})
 
     }));
 }
@@ -437,7 +437,7 @@ r_text[200] = "https://i.ibb.co/jf6N78M/images.png";
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by Pikachu'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.document, {mimetype: Mimetype.png, caption: 'Made by Pikachu'})
 
     }));
 }
