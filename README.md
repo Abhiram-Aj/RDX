@@ -2,10 +2,7 @@
 <div align="center">
         <img src="https://media.giphy.com/media/12r4pHjvAOv48o/giphy.gif" alt="GIF" width="250" height="200"/>
 </p>
-<details>
-        <summary>⏬ <b>CLICK HERE TO SCAN AND DEPLOY🤗</b></summary>
 
-    
 <div align="center">
 
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Welcome+to+Pikachu+WA+Bot+repo;Created+by+Ameer+Suhail;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
@@ -129,7 +126,6 @@ By establishing the Pikachu, you are deemed to have accepted these responsibilit
 [Ameer Suhail](https://github.com/ameer-kallumthodi) | [Hisham-Muhammed](https://github.com/Hisham-Muhammed) | [saidalisaid2](https://github.com/saidalisaid2) | [Souravkl11](https://github.com/souravkl11/Raganork)
 Base, Bug Fixes, Modules | Modifiying as public | Bug Fixes, Modules | Bug fixes, ideas
   </div>
-    </details>
 
 
 ## License
