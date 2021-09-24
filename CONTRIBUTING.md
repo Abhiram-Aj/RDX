@@ -1,7 +1,10 @@
-# Contributing to Thiccy
+# Contributing to Pikachu
 
 When contributing to this repository, please first discuss the change you wish to make via issue,
 email, or any other method with the owners of this repository before making a change. 
+
+ഈ ശേഖരത്തിലേക്ക് സംഭാവന ചെയ്യുമ്പോൾ, ആദ്യം നിങ്ങൾ പ്രശ്നം വഴി വരുത്താൻ ആഗ്രഹിക്കുന്ന മാറ്റം ചർച്ച ചെയ്യുക,
+ഒരു മാറ്റം വരുത്തുന്നതിന് മുമ്പ് ഈ ശേഖരത്തിന്റെ ഉടമകളുമായി ഇമെയിൽ അല്ലെങ്കിൽ മറ്റേതെങ്കിലും രീതി.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
@@ -12,7 +15,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 2. Update the README.md with details of changes to the interface, this includes new environment 
    variables, exposed ports, useful file locations and container parameters.
 3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [ReadMe](https://github.com/phaticusthiccy/WhatsAsenaDuplicated/blob/master/README.md).
+   Pull Request would represent. The versioning scheme we use is [ReadMe](https://github.com/ameer-kallumthodi/pikachu/blob/master/README.md).
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
 
