@@ -1,5 +1,5 @@
-/* Copyright (C) 2020  Yusuf Usta.
-re codded by saidalisaid
+/* Copyright (C) 2021 Ameer Kallumthodi
+re-edited by Saidalisaid
 */
 
 const { Sequelize } = require('sequelize');
@@ -47,6 +47,7 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     BOTSK: process.env.BOT_NAME === undefined ? '𝐏𝐈𝐊𝐀𝐂𝐇𝐔 𝐁𝐎𝐓' : process.env.BOT_NAME,
+    LOGOSK: process.env.ALL_IMG === undefined ? 'https://i.pinimg.com/originals/0e/c8/8c/0ec88ca1469125fc11b4ce76830602f4.jpg' : process.env.ALL_IMG,
     TAGPLK: process.env.TAG_HEADER === undefined ? '*Attention please 📢*' : process.env.TAG_HEADER,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
