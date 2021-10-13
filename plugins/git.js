@@ -19,6 +19,10 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 *Audio commads :   https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
 
 *Sticker commads : https://github.com/ameer-kallumthodi/pikachu/tree/master/uploads*
+
+*Video For Setting Bot : https://youtu.be/_D4ZYuUSXjs* 
+
+*For More Updates Subscribe The Channel ☝*
 `}) 
 
 }));
