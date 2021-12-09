@@ -72,3 +72,4 @@ if (Config.WORKTYPE == 'public') {
 	    }
     });
 }
+ 
