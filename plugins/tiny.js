@@ -36,3 +36,4 @@ Asena.addCommand({pattern: 'tiny ?(.*)', fromMe: true, desc: Lang.TIN_DESC}, asy
 	}
 });
 }
+ 
