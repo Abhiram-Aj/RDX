@@ -2,14 +2,9 @@
 <a href="https://fontmeme.com/beat-saber-font/"><img src="https://fontmeme.com/permalink/211209/63c651c805c050b8d8be8cdfbd470d40.png" alt="beat-saber-font" border="0"></a>
 <div align="center">
 
-## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=FFA500&lines=Welcome+to+OXYMORON+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
+## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+OXYMORON+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
- </a>
-</p>
-<div align="center">
- <p align="center">
-<a href="#"><img title="KINGS AS" src="https://img.shields.io/badge/AMEERSUHAIL-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
+
   <p align="center">
 <a href="https://github.com/KINGS-AS"><img title="Author" src="https://img.shields.io/badge/Author-KINGS-AS/OXYMORON?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
