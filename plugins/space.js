@@ -55,3 +55,4 @@ Asena.addCommand({pattern: 'sweather ?(.*)', fromMe: false, desc: "Gives you the
 	}
 });
 }
+ 
