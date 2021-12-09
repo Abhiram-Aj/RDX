@@ -21,4 +21,4 @@ const NEED_UWONG = "*Give me a user!*"
         } else {
             await message.client.sendMessage(message.jid, NEED_UWONG, MessageType.text);
         }
-    }));
+    })); 
