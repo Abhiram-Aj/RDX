@@ -147,3 +147,4 @@ Asena.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mess
         }      
     }
 }));
+ 
