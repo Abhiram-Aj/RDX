@@ -758,3 +758,4 @@ Asena.addCommand({pattern: 'cup ?(.*)', fromMe: wk, dontAddCommandList: true}, (
           } 
     });
 }));
+ 
