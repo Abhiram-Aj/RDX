@@ -31,7 +31,7 @@ else if (Config.WORKTYPE == 'public') {
         mesaj = '';
         grup['participants'].map(async (uye) => {
             if (uye.isAdmin) {
-                mesaj += '👮‍♂️@' + uye.id.split('@')[0] + '\n';
+                mesaj += '😈@' + uye.id.split('@')[0] + '\n';
                 jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
             }
         });
