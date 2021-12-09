@@ -78,7 +78,7 @@ Asena.addCommand({pattern: 'update now$', fromMe: true,dontAddCommandList: true,
 
             await message.client.sendMessage(
                 message.jid,Lang.UPDATED, MessageType.text);
-
+P
             await message.sendMessage(Lang.AFTER_UPDATE);
             
         } else {
@@ -96,3 +96,4 @@ Asena.addCommand({pattern: 'update now$', fromMe: true,dontAddCommandList: true,
         }
     }
 }));
+ 
