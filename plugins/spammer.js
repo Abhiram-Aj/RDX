@@ -122,6 +122,8 @@ Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, dontAddCommandList: true,
     await message.client.sendMessage(message.jid, fin, MessageType.text);
     
     await message.client.sendMessage(message.jid, fin, MessageType.text);
+
+    await message.client.sendMessage(message.jid, fin, MessageType.text);
     
     await message.client.sendMessage(message.jid, fin, MessageType.text);
     
