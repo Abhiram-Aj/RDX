@@ -1,5 +1,4 @@
-/* Codded by @PLK
-HEHE
+/* Codded by @KINGS-AS
 */
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
