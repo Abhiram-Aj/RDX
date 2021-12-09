@@ -2560,6 +2560,8 @@ Asena.addCommand({pattern: 'spam ?(.*)', fromMe: true, desc: Lang.SPAM_DESC}, (a
     await message.client.sendMessage(message.jid, `${match[1]}`, MessageType.text);
     
     await message.client.sendMessage(message.jid, `${match[1]}`, MessageType.text);
+    
+    await message.client.sendMessage(message.jid, `${match[1]}`, MessageType.text);
 
 }));
 
