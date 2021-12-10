@@ -1,4 +1,4 @@
-const asena = require('../events');
+const asena = require('../events');  
 const {MessageType} = require('@adiwajshing/baileys');
 const GM = "it sends good morning message"
 const GN = "it sends good night message"
