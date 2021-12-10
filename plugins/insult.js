@@ -41,3 +41,4 @@ Asena.addCommand({pattern: 'insult ?(.*)', fromMe: false, desc: Lang.EVINS_DESC}
 	}
 });
 }
+   
