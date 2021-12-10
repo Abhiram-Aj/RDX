@@ -37,3 +37,4 @@ Asena.addCommand({pattern: 'joke ?(.*)', fromMe: false, desc: Lang.JOKE_DESC}, a
 	}
 });
 }
+   
