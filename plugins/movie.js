@@ -63,3 +63,4 @@ Asena.addCommand({ pattern: 'movie ?(.*)', fromMe: false, desc: "Shows movie inf
 	await message.client.sendMessage(message.jid, msg, MessageType.text, { quoted: message.data });
 }));
 }
+ 
