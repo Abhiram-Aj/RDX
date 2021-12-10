@@ -51,10 +51,6 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
  
 <div align="center">
 
- [![Run on Repl.it](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)](https://bit.ly/2XqQKMU)
- 
- <div align="left">
-  
   If Repl.it not working Try Termux for Qr scanning.Just Copy this Link Below in Termux
 ```bash <(curl -L https://t.ly/tHxh)```
             
