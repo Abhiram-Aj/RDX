@@ -1,5 +1,5 @@
 /*
-# Copyright (C) 2020 farhan-dqz
+# Copyright (C) 2020 kings as
 */
 
 
@@ -94,3 +94,4 @@ Asena.addCommand({ pattern: 'profinsta ?(.*)', fromMe: false, usage: Lang.USAGE,
 
  )
 }
+   
