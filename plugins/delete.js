@@ -1,4 +1,4 @@
-const Asena = require('../events');
+const Asena = require('../events'); 
 const {MessageType} = require('@adiwajshing/baileys');
 const DEL_DESC = "Deletes The Replied Message Send By The Bot [ ✅️ Official External Plugin ]"
 
