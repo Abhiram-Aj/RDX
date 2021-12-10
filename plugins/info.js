@@ -1,4 +1,4 @@
-//PLUGIN BY AS COPY WITH CREDIT
+//PLUGIN BY SOURAVKL11 COPY WITH CREDIT
 
 const Asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
@@ -11,17 +11,17 @@ const Lang = Language.getString('wallpaper');
 Asena.addCommand({pattern: 'info', fromMe: false, desc: 'Shows bot information and creator info'}, (async (message, match) => {
 
     var r_text = new Array ();
-    
-    
-   
+
+
+
   r_text[0] = Config.LOGOSK;
-    
-    
+
+
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `` + Config.BOTSK + ` *BOT CREATED BY* ` + ABHIRAM SACHU +`
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `` + Config.BOTSK + ` *BOT CREATED BY* ` + Config.PLK +`
     
     ----- ` + Config.BOTSK + ` -----
     
