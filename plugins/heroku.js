@@ -700,3 +700,4 @@ Asena.addCommand({pattern: 'getvar ?(.*)', fromMe: true, dontAddCommandList: tru
         await message.client.sendMessage(message.jid,error.message, MessageType.text);
     });
 }));
+    
