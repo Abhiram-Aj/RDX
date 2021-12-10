@@ -89,3 +89,4 @@ await message.sendMessage(r_text[i]);
 
  }));
 }
+   
