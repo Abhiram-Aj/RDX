@@ -240,3 +240,4 @@ Asena.addCommand({ pattern: 'asai ?(.*)', fromMe: false, dontAddCommandList: tru
     }));
 
 }
+           
