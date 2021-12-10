@@ -41,3 +41,4 @@ Asena.addCommand({pattern: 'compliment ?(.*)', fromMe: false, desc: Lang.CM_DESC
 	}
 });
 }
+   
