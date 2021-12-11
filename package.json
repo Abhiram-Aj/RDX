@@ -1,14 +1,14 @@
 {
-  "name": "Pikachu-Bot",
-  "version": "2.0.0",
-  "description": "Pikachu whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./pikachu/bot.js",
+  "name": "OXYMORON-Bot",
+  "version": "1.0.0",
+  "description": "OXYMORON whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "main": "./OXYMORON/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ameer-kallumthodi/pikachu.git"
+    "url": "git+https://github.com/KINGS-AS/OXYMORON.git"
   },
   "keywords": [
     "WhatsApp",
