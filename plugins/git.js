@@ -9,13 +9,11 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
     var skl = await axios.get("https://i.imgur.com/YC766jA.jpeg", { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: *OXYMORON BOT CREATED BY KINGS-AS*
+    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `*OXYMORON bot created by ABHIRAM SACHU*
+*Creator number : wa.me/919605101516?text=Hi%20im_coming_your%20oxymoron_git_link.%20*
 
-𝐂𝐑𝐄𝐀𝐓𝐎𝐑 𝐍𝐔𝐌𝐁𝐄𝐑 http://wa.me/919605101516?text=Hi%20im-coming%20your-bot-git-oxymoron%20
+*Githublink (Setup)  :    https://github.com/KINGS-AS/OXYMORON*
 
-𝐆𝐈𝐓 𝐋𝐈𝐍𝐊 https://github.com/KINGS-AS/OXYMORON
-
-🍃എന്നെ കꪆത്ത᭄ര᭄ക്കꪆൻ രꪆജ്യമോ രꪆജകുമꪆര᭄യോ ഇല്ല🥀💫 പകരം എ൱᭄ക്ക് ൨േണ്ട᭄ ചങ്ക് പറച്ചു തെരുന്ന കുറച്ചു ചങ്കന്മꪆർ കു‌ടെ ഉണ്ട്🌝അതു മതി എ൱᭄ക്കྂ♥
 
 `}) 
 
