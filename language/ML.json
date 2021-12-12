@@ -196,7 +196,7 @@
             "NEED_WORDS": "```search cheyende words type cheyyu!```",
             "GETTING_VIDEOS": "```video link kond verunnu...```",
             "NOT_FOUND": "*Thappinokeett kittiyilla ☹️*",
-            "SEARCHING": "*🔎 searching...*",
+            "SEARCHING": "*RDX 🔎 searching...*",
             "WIKI_DESC": "Wikipedia yill search cheyyaan.",
             "IMG_DESC": "googlil chithram search cheyaan.",
             "IMG": "chithram upload cheyyunu ```{}``` number ```{} ```..."
@@ -204,7 +204,7 @@
         "sticker": {
             "STICKER_DESC": "chithram sticker akkaan.",
             "NEED_REPLY": "*photo allenkil chithram reply cheyyu!*",
-            "DOWNLOADING": "```Ippam Sheriyaakithara 🤠```"
+            "DOWNLOADING": "```oky bhai🤠```"
         },
         "system_stats": {
             "ALIVE_DESC": "bot working aano enn ariyan",
@@ -219,9 +219,9 @@
             "UPDATE": "*ningalude bot up-to-date aan!*",
             "NEW_UPDATE": "*OXYMORON Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "botine update cheyaan.",
-            "UPDATING": "```Updating..🐥```",
+            "RDX OXYMORON Updating": "```RDX OXYMORON Updating..🐥```",
             "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
-            "UPDATED": "*Updated 🤠✅*",
+            "UPDATED": "* RDX Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
             "AFTER_UPDATE": "*😎 OXYMORON Restarting..*"
         },
