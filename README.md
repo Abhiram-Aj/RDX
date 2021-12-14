@@ -1,40 +1,5 @@
 
-<a href="https://fontmeme.com/beat-saber-font/"><img src="https://fontmeme.com/permalink/211209/63c651c805c050b8d8be8cdfbd470d40.png" alt="beat-saber-font" border="0"></a>
-<div align="center">
-
 ## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+OXYMORON+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
-
-
-  <p align="center">
-<a href="https://github.com/KINGS-AS"><img title="Author" src="https://img.shields.io/badge/Author-KINGS-AS/OXYMORON?color=blue&style=for-the-badge&logo=whatsapp"></a>
-</p>
-</div>
-<p align="center">
-Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it public
-    <br>
-       | © |
-        Reserved |
-    <br> 
-</p>
-
-----
-
-<h3 align="center">Contact Me:</h3>
-<p align="center">
-<a href="https://instagram.com/sachu_abhiram_aj?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
-</p>
-<h4 align="center">Support Video For Deploy Bot 👇:</h4>
-<p align="center">
-<a href="https://youtube.com/channel/UCtcc7j8nB7WfFJ0YJvml13w" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
-</p>
-  
-
-<p align="center">
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=KINGS-AS&show_icons=true&theme=dark&locale=en" alt="KINGS-AS" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=KINGS-AS&theme=dark" alt="KINGS-AS" /></p>
-</p>
 
 
 ## Setup
@@ -91,9 +56,9 @@ By establishing the OXYMORON, you are deemed to have accepted these responsibili
 ## Developers
   <div align="center">
     
-  [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) 
+  [![DEVIL-SARATH](https://github.com/DEVIL-SARATH.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) 
 ----|----|----
-[Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS)
+[Shrath](https://github.com/DEVIL-SARATH) | [Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS)
 Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas
   </div>
 
