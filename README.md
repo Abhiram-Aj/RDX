@@ -1,3 +1,4 @@
+![DEVIL-SARATH](https://github.com/DEVIL-SARATH.png?size=1000)
 
 ## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+Raju+Bhai+WA+Bot+Repo;Created+by+SARATH+ACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
