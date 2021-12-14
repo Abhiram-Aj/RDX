@@ -1,5 +1,5 @@
-/* Copyright (C) 2021 phaticusthiccy
-re-edited by KINGS AS
+/* Copyright (C) 2021 KINGS AS
+re-edited by DEVIL-SARATH
 */
 
 const { Sequelize } = require('sequelize');
@@ -20,7 +20,7 @@ module.exports = {
     SESSION: process.env.CONNECTION_CODE === undefined ? '' : process.env.CONNECTION_CODE,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
-    AFN: process.env.ALL_CAPTION === undefined ? 'Made By AS' : process.env.ALL_CAPTION,
+    AFN: process.env.ALL_CAPTION === undefined ? 'Made By AS AND SARATH' : process.env.ALL_CAPTION,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
@@ -46,7 +46,7 @@ module.exports = {
     PROMOTEMSG: process.env.PROMOTE_MESSAGE === undefined ? 'default' : process.env.PROMOTE_MESSAGE,
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
-    BOTSK: process.env.BOT_NAME === undefined ? '𝐀𝐒 𝐁𝐎𝐓' : process.env.BOT_NAME,
+    BOTSK: process.env.BOT_NAME === undefined ? '𝐑𝐀𝐉𝐔 𝐁𝐇𝐀𝐈 𝐁𝐎𝐓' : process.env.BOT_NAME,
     LOGOSK: process.env.ALL_IMG === undefined ? 'https://i.imgur.com/631kyvI.jpeg' : process.env.ALL_IMG,
     SLINK: process.env.SOCIAL_MEDIA === undefined ? 'https://www.instagram.com/Sachu_abhiram_aj/' : process.env.SOCIAL_MEDIA,
     TAGPLK: process.env.TAG_HEADER === undefined ? '*Attention please 📢*' : process.env.TAG_HEADER,
@@ -63,7 +63,7 @@ module.exports = {
     DATABASE: DATABASE_URL === './whatsasena.db' ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: DEBUG }) : new Sequelize(DATABASE_URL, { dialectOptions: { ssl: { require: true, rejectUnauthorized: false } }, logging: DEBUG }),
     RBG_API_KEY: process.env.REMOVE_BG_API_KEY === undefined ? false : process.env.REMOVE_BG_API_KEY,
     NO_ONLINE: process.env.NO_ONLINE === undefined ? true : convertToBool(process.env.NO_ONLINE),
-    SUDO: process.env.SUDO === undefined ? '919946432377,0' : process.env.SUDO,
+    SUDO: process.env.SUDO === undefined ? '919496306657,0' : process.env.SUDO,
     DEBUG: DEBUG,
     COFFEEHOUSE_API_KEY: process.env.COFFEEHOUSE_API_KEY === undefined ? false : process.env.COFFEEHOUSE_API_KEY,
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
