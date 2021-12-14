@@ -1,5 +1,5 @@
 
-## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+OXYMORON+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
+## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+Raju+Bhai+WA+Bot+Repo;Created+by+SARATH+ACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
 
 ## Setup
@@ -9,7 +9,7 @@
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/OXYMORON.git)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/DEVIL-SARATH/RAJU-BHAI.git)
      </div>
 <br>
 <br >
