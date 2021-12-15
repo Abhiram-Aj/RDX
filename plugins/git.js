@@ -15,7 +15,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
 *Creator number 2 : wa.me/919605101516?text=Hi%20im_coming_your%20RAJU-BHAI_git_massage.%20*
 
-*Githublink (Setup)  :    https://github.com/KINGS-AS/OXYMORON*
+*Githublink (Setup)  :    https://github.com/DEVIL-SARATH/RAJU-BHAI*
 
 
 `}) 
