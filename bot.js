@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ OXYMORON working😈!')
+            chalk.green.bold('✅ RDX BOT working😈!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
