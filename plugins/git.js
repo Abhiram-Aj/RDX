@@ -14,9 +14,9 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
 *Githublink (Setup)  :    https://github.com/KINGS-AS/RDX*
 
-*QR
+*QR       :  https://replit.com/@phaticusthiccy/WhatsAsena-QR
 
-*DEPLOYE
+*DEPLOYE  :  https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX.git
 
 `}) 
 
