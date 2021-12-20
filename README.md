@@ -2,11 +2,11 @@
 <a href="https://fontmeme.com/beat-saber-font/"><img src="https://fontmeme.com/permalink/211209/63c651c805c050b8d8be8cdfbd470d40.png" alt="beat-saber-font" border="0"></a>
 <div align="center">
 
-## [![OXYMORON](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+OXYMORON+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
+## [![RDX](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+RDX+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
 
   <p align="center">
-<a href="https://github.com/KINGS-AS"><img title="Author" src="https://img.shields.io/badge/Author-KINGS-AS/OXYMORON?color=blue&style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/KINGS-AS"><img title="Author" src="https://img.shields.io/badge/Author-KINGS-AS/RDX?color=blue&style=for-the-badge&logo=whatsapp"></a>
 </p>
 </div>
 <p align="center">
@@ -44,7 +44,7 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/OXYMORON.git)
+[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX.git)
      </div>
 <br>
 <br >
@@ -60,8 +60,8 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/KINGS-AS/OXYMORON
-$ cd OXYMORON
+$ git clone https://github.com/KINGS-AS/RDX
+$ cd RDX
 $ chmod +x *
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -70,8 +70,8 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/KINGS-AS/OXYMORON
-$ cd OXYMORON
+$ git clone https://github.com/KINGS-AS/RDX
+$ cd RDX
 $ chmod +x *
 $ npm i
 $ node qr.js
@@ -84,8 +84,8 @@ $ node bot.js
 ```
 Due to Whatsapp bot; Your WhatsApp account may be banned.
 This is an open source project, you are responsible for everything you do. 
-Absolutely, OXYMORON executives do not accept responsibility.
-By establishing the OXYMORON, you are deemed to have accepted these responsibilities.
+Absolutely, RDX executives do not accept responsibility.
+By establishing the RDX, you are deemed to have accepted these responsibilities.
 ```
 
 ## Developers
