@@ -92,7 +92,7 @@ By establishing the RDX, you are deemed to have accepted these responsibilities.
 ## Developers
   <div align="center">
     
-  [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) 
+  [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://i.imgur.com/14w3OJb.jpeg?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) 
 ----|----|----
 [Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS)
 Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas
