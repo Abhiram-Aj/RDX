@@ -1,14 +1,14 @@
 {
-  "name": "OXYMORON-Bot",
+  "name": "RDX-Bot",
   "version": "1.0.0",
-  "description": "OXYMORON whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
-  "main": "./OXYMORON/bot.js",
+  "description": "RDX whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
+  "main": "./RDX/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KINGS-AS/OXYMORON.git"
+    "url": "git+https://github.com/KINGS-AS/RDX.git"
   },
   "keywords": [
     "WhatsApp",
@@ -19,7 +19,7 @@
   "developer": "Abhiram Sachu / @phaticusthiccy",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/KINGS-AS/OXYMORON/issues"
+    "url": "https://github.com/KINGS-AS/RDX/issues"
   },
   "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
   "dependencies": {
