@@ -1,7 +1,7 @@
-/* Copyright (C) 2021 ameer-kallumthodi.
+/* Copyright (C) 2021 KING AS.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Pikachu-Ameer Suhail
+RDX
 */
 
 const Asena = require('../events');
@@ -436,7 +436,7 @@ r_text[200] = "https://i.ibb.co/qjySbDs/rashmika-mandanna-20200304-0051.jpg";
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by Pikachu'})
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by RDX'})
 
     }));
 }
