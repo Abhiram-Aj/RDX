@@ -1,16 +1,16 @@
-const Asena = require('../events');
+const 𝐑𝐃𝐗 𝐁𝐎𝐓ena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+𝐑𝐃𝐗 𝐁𝐎𝐓ena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (𝐑𝐃𝐗 𝐁𝐎𝐓ync (message, match) => {
 
     var r_text = new Array ();
     
     
-    r_text[0] = "https://i.imgur.com/YC766jA.jpeg";
+    r_text[0] = "https://i.imgur.com/xv8HNon.jpeg";
     
     
     var i = Math.floor(1*Math.random())
@@ -20,121 +20,121 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨Abhiram sachu✨️━━━━━⛦
 
 
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐀𝐒 𝐛𝐨𝐭.
-            *𝐎𝐗𝐘𝐌𝐎𝐑𝐎𝐍*
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐑𝐝𝐱 𝐁𝐨𝐭.
+            *𝐑𝐃𝐗 𝐁𝐎𝐓*
 
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -song <text>
-☢️𝙐𝙨𝙚➜ Downloads song for you.
+🛑𝙐𝙨𝙚➜ Downloads song for you.
 ⚠️.song  baby love
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -video <yt link>
-☢️𝙐𝙨𝙚➜ Downloads video from YouTube link.
+🛑𝙐𝙨𝙚➜ Downloads video from YouTube link.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -insta <link>
-☢️𝙐𝙨𝙚➜   Downloads content from instagram.
+🛑𝙐𝙨𝙚➜   Downloads content from instagram.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -yt<text>
-☢️𝙐𝙨𝙚➜   Gives you YT links.
+🛑𝙐𝙨𝙚➜   Gives you YT links.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -show <show name>
-☢️𝙐𝙨𝙚➜   Get info related to tv series and shows.
+🛑𝙐𝙨𝙚➜   Get info related to tv series and shows.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -gif 
-☢️𝙐𝙨𝙚➜ Converts video to gif.
+🛑𝙐𝙨𝙚➜ Converts video to gif.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -tomp3 
-☢️𝙐𝙨𝙚➜ Converts video into audio.
+🛑𝙐𝙨𝙚➜ Converts video into audio.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -say <text>
-☢️𝙐𝙨𝙚➜ Converts text into voice.
+🛑𝙐𝙨𝙚➜ Converts text into voice.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -img <text>
-☢️𝙐𝙨𝙚➜ It sends image from google.
+🛑𝙐𝙨𝙚➜ It sends image from google.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trt <language code>
-☢️𝙐𝙨𝙚➜ Translate the text you tag.
+🛑𝙐𝙨𝙚➜ Translate the text you tag.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wiki <text>
-☢️𝙐𝙨𝙚➜ It sends Wikipedia result.
+🛑𝙐𝙨𝙚➜ It sends Wikipedia result.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -lyric <text>
-☢️𝙐𝙨𝙚➜ Finds the lyrics of the song.
+🛑𝙐𝙨𝙚➜ Finds the lyrics of the song.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -covid <country code>
-☢️𝙐𝙨𝙚➜ Send the covid stats of your country.
+🛑𝙐𝙨𝙚➜ Send the covid stats of your country.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -weather <city>
-☢️𝙐𝙨𝙚➜ Tells you about the weather of your place.
+🛑𝙐𝙨𝙚➜ Tells you about the weather of your place.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -removebg 
-☢️𝙐𝙨𝙚➜ Removes the background of tge image.
+🛑𝙐𝙨𝙚➜ Removes the background of tge image.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ocr
-☢️𝙐𝙨𝙚➜ Finds the text written on the image.
+🛑𝙐𝙨𝙚➜ Finds the text written on the image.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wallpaper
-☢️𝙐𝙨𝙚➜ It sends you random wallpaper.
+🛑𝙐𝙨𝙚➜ It sends you random wallpaper.
 
-■□■□■□■□■□𝐎𝐗𝐘𝐌𝐎𝐑𝐎𝐍■□■□■□■□■□
+■□■□■□■□■□𝐑𝐃𝐗 𝐁𝐎𝐓■□■□■□■□■□
 ♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -joke 
-☢️𝙐𝙨𝙚➜ It sends a random joke.
+🛑𝙐𝙨𝙚➜ It sends a random joke.
  
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -meme <text>
-☢️𝙐𝙨𝙚➜ Cations the image into a meme.
+🛑𝙐𝙨𝙚➜ Cations the image into a meme.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -quote 
-☢️𝙐𝙨𝙚➜ It sends a random quote.
+🛑𝙐𝙨𝙚➜ It sends a random quote.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -ss <website link>
-☢️𝙐𝙨𝙚➜ It sends the screenshot of the website.
+🛑𝙐𝙨𝙚➜ It sends the screenshot of the website.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -changesay <text>
-☢️𝙐𝙨𝙚➜ Converts text into changesay meme image.
+🛑𝙐𝙨𝙚➜ Converts text into changesay meme image.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -trumpsay
-☢️𝙐𝙨𝙚➜ Convert text into Trump's tweet.
+🛑𝙐𝙨𝙚➜ Convert text into Trump's tweet.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -compliment 
-☢️𝙐𝙨𝙚➜ Gives you a compliment.
+🛑𝙐𝙨𝙚➜ Gives you a compliment.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -bitly <link>
-☢️𝙐𝙨𝙚➜   Shorten your link.
+🛑𝙐𝙨𝙚➜   Shorten your link.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -dict 
-☢️𝙐𝙨𝙚➜   Dictionary [-dict en;anime]
+🛑𝙐𝙨𝙚➜   Dictionary [-dict en;anime]
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -zodiac <leo> 
-☢️𝙐𝙨𝙚➜   Tells you about your horoscope.
+🛑𝙐𝙨𝙚➜   Tells you about your horoscope.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -qr <text>
-☢️𝙐𝙨𝙚➜   Converts text into qr code.
+🛑𝙐𝙨𝙚➜   Converts text into qr code.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -movie 
-☢️𝙐𝙨𝙚➜  Gives you info about movie.
+🛑𝙐𝙨𝙚➜  Gives you info about movie.
 ⚠️movie master
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -anime <text>
-☢️𝙐𝙨𝙚➜  Gives you info about anime.
-⚠️anime AS
-■□■□■□■□■AS□■□■□■□■□■□
+🛑𝙐𝙨𝙚➜  Gives you info about anime.
+⚠️anime 𝐑𝐃𝐗 𝐁𝐎𝐓
+■□■□■□■□■𝐑𝐃𝐗 𝐁𝐎𝐓□■□■□■□■□■□
 ♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sticker 
-☢️𝙐𝙨𝙚➜ Converts img/gif into a sticker.
+🛑𝙐𝙨𝙚➜ Converts img/gif into a sticker.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -photo 
-☢️𝙐𝙨𝙚➜ Converts sticker into image.
+🛑𝙐𝙨𝙚➜ Converts sticker into image.
 
 🔰𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
-☢️𝙐𝙨𝙚➜ Converts text into glowing sticker.
-⚠️ex  attp AS
+🛑𝙐𝙨𝙚➜ Converts text into glowing sticker.
+⚠️ex  attp 𝐑𝐃𝐗 𝐁𝐎𝐓
 ■□■□■□■□■□■□■□■□■□■□
-═════💢AS💢═════
+═════💢𝐑𝐃𝐗 𝐁𝐎𝐓💢═════
 ▣▣▣▣▣▣▣▣𝐀𝐒▣▣▣▣▣▣▣▣▣▣▣
 
 `}) 
