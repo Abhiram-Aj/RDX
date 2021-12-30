@@ -1,11 +1,11 @@
-const 𝐑𝐃𝐗 𝐁𝐎𝐓ena = require('../events');
+const asena = require('../events');
 const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
 const Lang = Language.getString('wallpaper');
 
-𝐑𝐃𝐗 𝐁𝐎𝐓ena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (𝐑𝐃𝐗 𝐁𝐎𝐓ync (message, match) => {
+asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (message, match) => {
 
     var r_text = new Array ();
     
