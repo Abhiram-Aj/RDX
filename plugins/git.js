@@ -10,8 +10,9 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
     var skl = await axios.get("https://telegra.ph/file/5b1a13030d82fce99f12f.jpg", { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `RDX Bot Created By Abhiram Sachu
+Creator number 👉: wa.me/917736771516
 
-Creator number 👇: wa.me/919605101516
+Creator number 👇: https://wa.me/qr/62FORLJKJZ4WP1
 
 Githublink (Setup)  👇:    https://github.com/KINGS-AS/RDX
 
