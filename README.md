@@ -57,10 +57,10 @@ By establishing the OXYMORON, you are deemed to have accepted these responsibili
 ## Developers
   <div align="center">
     
-  [![DEVIL-SARATH](https://github.com/DEVIL-SARATH.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) 
-----|----|----
-[Shrath](https://github.com/DEVIL-SARATH) | [Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS)
-Base, Bug Fixes, Modules | Bug Fixes, Modules | Bug fixes, ideas
+  [![DEVIL-SARATH](https://github.com/DEVIL-SARATH.png?size=100)](https://github.com/KINGS-AS) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS)  
+----|----
+[Shrath](https://github.com/DEVIL-SARATH) | [Abhiram Sachu](https://github.com/KINGS-AS) 
+ BOT MODIFIED | BOT PLUGIN BUG FIX
   </div>
 
 
