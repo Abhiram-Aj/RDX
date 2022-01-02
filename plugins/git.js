@@ -22,7 +22,6 @@ DEPLOYE  👇:  https://heroku.com/deploy?template=https://github.com/KINGS-AS/R
 
 AS BOT GROUP 👇: https://chat.whatsapp.com/CaFM7tvnK3TLs8UX0oQWT7
 
-My friend git link 👇: https://github.com/DEVIL-SARATH/RAJU-BHAI
 
 `}) 
 
