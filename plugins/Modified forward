@@ -20,7 +20,7 @@ else mode = 'ғᴏʀᴡᴀʀᴅᴇᴅ ʙʏ ' + Config.BC
              
             }
 
-KING-AS.addCommand({pattern: 'Mf ?(.*)', fromMe: true, desc: 'its foraward replied audio'}, (async (message, match) => {   
+King.addCommand({pattern: 'rdxfor ?(.*)', fromMe: true, desc: 'its foraward replied audio'}, (async (message, match) => {   
   
     if (message.reply_message === false);
     
