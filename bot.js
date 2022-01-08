@@ -186,7 +186,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '*♥️𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃♥️*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🤖𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃🤖*', MessageType.text);
                 }
 
             }
@@ -212,7 +212,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '*😈𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃😈*', MessageType.text);
+                await conn.sendMessage(conn.user.jid, '*🤖𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃🤖*', MessageType.text);
                 }
             }
             else {
@@ -235,7 +235,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '*💖𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃💖*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '*🤖𝐁𝐎𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃🤖*', MessageType.text);
                 }
             }
         }
@@ -383,8 +383,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ *RDX ERROR FOUND!* ~______~*' +
-                                    '\n\n*🤖 ' + error + '*\n\n```*error connect owner https://wa.me/qr/62FORLJKJZ4WP1``` ' 
+                                await conn.sendMessage(conn.user.jid, '*~_________~ *OXYMORON ERROR FOUND!* ~______~*' +
+                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```*error connect owner https://wa.me/qr/62FORLJKJZ4WP1 and massage me im coming your oxymoron bot``` ' 
                                     , MessageType.text);
                             }
                         }
