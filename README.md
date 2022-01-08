@@ -43,7 +43,13 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 <div align="center">
 
   ### Simple Method
-  
+
+1. Click [SCAN](https://replit.com/@phaticusthiccy/WhatsAsena-QR) or [SCAN](https://early-pie-production.up.railway.app/qr) and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
+2. You will get a long text that needs after 4th step (ASENA_SESSION).
+3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+4. Click [FORK](https://github.com/KINGS-AS/RDX/fork)
+5. Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change KINGS-AS with your github username and click GO<br>
+ 👇 This method not working 👇
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
 [![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX.git)
