@@ -9,11 +9,11 @@ const Config = require('../config');
 
 // ==================== MAIN DESCRIPTION TEXT ====================
 const h_Des = "Yardım menüsünden botu kullanım hakkında bilgi verir."
-const h_DedEN = "Gives information about using the bot from the asashelp menu."
-const matchnullEN = "========== *🆘 General asashelp 🆘* ==========\n\n🔹 *.alive:* Checks if the bot is running.\n\n🔹 *.asena:* Shows the complete list of commands.\n🔹 *.setvar:* It settings config without entering Heroku.\n\n🔸 For more asashelp, use the command ```.asashelp <the topic you want asashelp with>```\nExample: ```.asashelp how can ı turn to public my bot?```\n\n========== *End General asashelp* =========="
-const matchnull = "========== *🆘 Genel Yardım 🆘* ==========\n\n🔹 *.alive:* Botun çalışıp çalışmadığını kontrol eder.\n🔹 *.asena:* Tüm komut listesini gösterir.\n🔹 *.setvar:* Herokuya girmeden config ayarlar.\n\n🔸 Daha fazla yardım için ```.asashelp <yardım almak istediğiniz konu>``` komutunu kullanın.\nÖrnek: ```.asashelp botumu nasıl public yaparım?```\n\n========== *Genel Yardım Bitti* =========="
+const h_DedEN = "Gives information about using the bot from the help menu."
+const matchnullEN = "========== *🆘 General help 🆘* ==========\n\n🔹 *.alive:* Checks if the bot is running.\n\n🔹 *.asena:* Shows the complete list of commands.\n🔹 *.setvar:* It settings config without entering Heroku.\n\n🔸 For more help, use the command ```.help <the topic you want help with>```\nExample: ```.help how can ı turn to public my bot?```\n\n========== *End General help* =========="
+const matchnull = "========== *🆘 Genel Yardım 🆘* ==========\n\n🔹 *.alive:* Botun çalışıp çalışmadığını kontrol eder.\n🔹 *.asena:* Tüm komut listesini gösterir.\n🔹 *.setvar:* Herokuya girmeden config ayarlar.\n\n🔸 Daha fazla yardım için ```.help <yardım almak istediğiniz konu>``` komutunu kullanın.\nÖrnek: ```.help botumu nasıl public yaparım?```\n\n========== *Genel Yardım Bitti* =========="
 const notfound = "```Almak istediğiniz yardım bulunamadı!```\n```Lütfen daha açıklayıcı bir şekilde sorunu belirtin.```"
-const notfoundEN = "```The asashelp you wanted to get was not found!```\n```Please state the problem in a more descriptive way.```"
+const notfoundEN = "```The help you wanted to get was not found!```\n```Please state the problem in a more descriptive way.```"
 
 // ==================== ALL DESCRİPTİONS ====================
 const pubTR = "Botunuzu public yapmak komutları herkese açık yapacaktır. Public yapıldıktan sonra kullanıcı sadece kişisel ve admin komutlarını kullanabilir hale gelir. Onun dışında komutları kullanamaz.\nBotunuzu public yapmak için *.setvar WORK_TYPE:public* komutunu kullanın."
