@@ -7,7 +7,7 @@ const Lang = Language.getString('_asena');
 
 if (Config.WORKTYPE == 'private') {
 
-    Asena.addCommand({pattern: 'help ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'list ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         Asena.commands.map(
@@ -29,7 +29,7 @@ if (Config.WORKTYPE == 'private') {
                 CMD_HELP += '*🌐 ' + Lang.COMMAND + ':* ```' + (match.length >= 3 ? (HANDLER + match[2]) : command.pattern) + (command.desc === '' ? '```\n\n' : '```\n');
                 if (command.desc !== '') CMD_HELP += '*♦️ ' + Lang.DESC + ':* ```' + command.desc + (command.warn === '' ? '```\n\n' : '```\n');
                 if (command.usage !== '') CMD_HELP += '*📝 ' + Lang.EXAMPLE + ':* ```' + command.usage + '```\n\n';
-                if (command.warn !== '') CMD_HELP += '*⚠️ ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
+                if (command.warn !== '') CMD_HELP += '*🛑 ' + Lang.WARN + ':* ```' + command.warn + '```\n\n';
 
             }
         );
@@ -138,7 +138,7 @@ Asena.addCommand({pattern: 'phelp ?(.*)', fromMe: true, dontAddCommandList: true
 }
 else if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'help ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    Asena.addCommand({pattern: 'list ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
     var CMD_HELP = '';
     if (match[1] === '') {
         Asena.commands.map(
