@@ -16,7 +16,7 @@ if (Config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'rdxbot ?(.*)', fromMe: true, desc: Lang.BOT_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v2/?text=hi&lc=vn${match[1]}&lang=en&cf=true`;
+	const url = `$https://api.simsimi.net/v2/?text=hello&lc=en&cf={match[1]}&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
@@ -30,7 +30,7 @@ else if (Config.WORKTYPE == 'public') {
 
     Asena.addCommand({pattern: 'rdxbot ?(.*)', fromMe: false, desc: Lang.BOT_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v2/?text=hi&lc=vn${match[1]}&lang=en&cf=true`;
+	const url = `https://api.simsimi.net/v2/?text=hello&lc=en&cf=${match[1]}&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
