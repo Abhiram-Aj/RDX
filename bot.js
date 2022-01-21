@@ -17,7 +17,7 @@ const axios = require('axios');
 const got = require('got');
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('Database', {
+const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -63,7 +63,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function Database () {
+async function whatsAsena () {
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
@@ -164,7 +164,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '🤖RDX STARTED🤖', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
                 }
             }
             else {
@@ -186,7 +186,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '🤖RDX STARTED🤖', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
                 }
 
             }
@@ -212,7 +212,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '🤖RDX STARTED🤖', MessageType.text);
+                await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
                 }
             }
             else {
@@ -235,7 +235,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '🤖RDX STARTED🤖', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
                 }
             }
         }
@@ -384,7 +384,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     , MessageType.text);
                             } else {
                                 await conn.sendMessage(conn.user.jid, '*~_________~ *RDX  ERROR FOUND!* ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```Connect owner https://wa.me/qr/CYBN2KFKQTAIN1``` ' 
+                                    '\n\n*⚠️ ' + error + '*\n\n```Connect owner https://wa.me/qr/CYBN2KFKQTAIN1``` ' 
                                     , MessageType.text);
                             }
                         }
