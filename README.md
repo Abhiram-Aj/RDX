@@ -44,7 +44,7 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 
   ### Simple Method
 
-1. [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
+1. [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@KINGS-AS/KING-AS-QR)
 
 2. Click [FORK](https://github.com/KINGS-AS/RDX/fork)
 
