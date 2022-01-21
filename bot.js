@@ -17,7 +17,7 @@ const axios = require('axios');
 const got = require('got');
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
+const WhatsAsenaDB = config.DATABASE.define('Database', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -63,7 +63,7 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
+async function Database () {
     await config.DATABASE.sync();
     var StrSes_Db = await WhatsAsenaDB.findAll({
         where: {
