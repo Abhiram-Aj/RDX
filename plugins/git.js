@@ -16,7 +16,7 @@ Creator number 👇: https://wa.me/qr/62FORLJKJZ4WP1
 
 Githublink (Setup)  👇:    https://github.com/KINGS-AS/RDX
 
-QR       👇:  https://replit.com/@phaticusthiccy/WhatsAsena-QR
+QR       👇:  https://replit.com/@KINGS-AS/KING-AS-QR#index.js
 
 DEPLOYE  👇:  https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX.git
 
