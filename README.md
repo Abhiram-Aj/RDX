@@ -20,25 +20,6 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 
 ----
 
-<h3 align="center">Contact Me:</h3>
-<p align="center">
-<a href="https://instagram.com/sachu_abhiram_aj?utm_medium=copy_link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="kyrie.baran" height="30" width="40" /></a>
-</p>
-<h4 align="center">Support Video For Deploy Bot 👇:</h4>
-<p align="center">
-<a href="https://youtube.com/channel/UCtcc7j8nB7WfFJ0YJvml13w" target="blank"><img align="center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/1200px-Logo_of_YouTube_%282015-2017%29.svg.png" height="45" width="90" /></a>
-</p>
-  
-
-<p align="center">
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=KINGS-AS&show_icons=true&theme=dark&locale=en" alt="KINGS-AS" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=KINGS-AS&theme=dark" alt="KINGS-AS" /></p>
-</p>
-
-
-
 ## Setup
 <div align="center">
 
@@ -49,11 +30,7 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 2. Click [FORK](https://github.com/KINGS-AS/RDX/fork)
 
 3. Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change KINGS-AS with your github username and click GO<br>
-
-### this method not working ⬇️
-
-[![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX.git)
-    
+  
  </div>
 <br>
 <br >
