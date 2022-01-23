@@ -77,9 +77,9 @@ By establishing the RDX, you are deemed to have accepted these responsibilities.
 ## Developers
   <div align="center">
     
-  [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![Collaborators](https://telegra.ph/file/d9e41a5e17b7ab9c3dfad.jpg)](https://github.com/KINGS-AS/RDX/settings/access) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) 
+  [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/KINGS-AS) | [![Collaborators](https://telegra.ph/file/d9e41a5e17b7ab9c3dfad.jpg)](https://github.com/KINGS-AS/RDX/settings/access) | [![KINGS-AS](https://github.com/KINGS-AS.png?size=100)](https://github.com/settings/profile) 
 ----|----|----
-[Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS) | [Abhiram Sachu](https://github.com/KINGS-AS)
+[Abhiram Sachu](https://github.com/KINGS-AS) | [Collaborators](https://github.com/KINGS-AS) | [You](https://github.com/settings/profile)
 Base, Bug Fixes, Modules | Thanks all| Bug fixes, ideas
   </div>
 
