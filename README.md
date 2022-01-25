@@ -40,13 +40,7 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 
 
 
-### ⚠️ Warning! 
-```
-Due to Whatsapp bot; Your WhatsApp account may be banned.
-This is an open source project, you are responsible for everything you do. 
-Absolutely, RDX executives do not accept responsibility.
-By establishing the RDX, you are deemed to have accepted these responsibilities.
-```
+
 
 ## Developers
   <div align="center">
@@ -66,4 +60,10 @@ This project is protected by `GNU General Public Licence v3.0` license.
 ### Disclaimer
 `WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
 
-
+### ⚠️ Warning! 
+```
+Due to Whatsapp bot; Your WhatsApp account may be banned.
+This is an open source project, you are responsible for everything you do. 
+Absolutely, RDX executives do not accept responsibility.
+By establishing the RDX, you are deemed to have accepted these responsibilities.
+```
