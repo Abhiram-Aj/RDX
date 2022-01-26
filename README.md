@@ -18,6 +18,16 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
     <br> 
 </p>
 
+  <p align="center">
+  <a href="httsp://github.com/KINGS-AS/RDX">
+    <img src="https://img.shields.io/github/repo-size/KINGS-AS/RDX?color=green&label=Repo%20total%20size&style=plastic">
+<p align="center">
+<a href="https://github.com/KINGS-AS/followers"><img title="Followers" src="https://img.shields.io/github/followers/KINGS-AS?color=blue&style=flat-square"></a>
+<a href="https://github.com/KINGS-AS/RDX/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/KINGS-AS/RDX?color=blue&style=flat-square"></a>
+<a href="https://github.com/KINGS-AS/RDX/network/members"><img title="Forks" src="https://img.shields.io/github/forks/KINGS-AS/RDX?color=blue&style=flat-square"></a>
+<a href="https://github.com/KINGS-AS/RDX/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/KINGS-AS/RDX?label=Watchers&color=blue&style=flat-square"></a>
+<a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
+</p>
 ----
 
 ## Setup
