@@ -28,7 +28,8 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 <a href="https://github.com/KINGS-AS/RDX/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/KINGS-AS/RDX?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
-----
+
+------
 
 ## Setup
 <div align="center">
@@ -48,7 +49,7 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 <div align="center">
 
 
-
+------
 
 
 
@@ -64,11 +65,6 @@ Base, Bug Fixes, Modules | Thanks all| Thanks to support 😈
 
         
         
-## License
-This project is protected by `GNU General Public Licence v3.0` license.
-
-### Disclaimer
-`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
 
 ### ⚠️ Warning! 
 ```
