@@ -183,10 +183,6 @@
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
-        "STICKER_PACKNAME": {
-            "description": "Sticker pack name,author",
-            "value": "AS,KINGS♥️AS"
-        },
         "NO_ONLINE": {
             "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
