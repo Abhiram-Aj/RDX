@@ -1,5 +1,5 @@
 {
-    "name": "RDX",
+    "name": "RDX BOT",
     "description": "RDX - Whatsapp Bot",
     "logo": "https://telegra.ph/file/3ccfc4376cc687168cec6.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
@@ -146,7 +146,7 @@
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "\n\n𝐑𝐃𝐗 𝐁𝐎𝐓\n\nUPGRADE VERSION COMING SOON\n\n\n\©𝚁𝙳𝚇 𝙱𝙾𝚃"
+            "value": "type anything hear"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",
