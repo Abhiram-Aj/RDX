@@ -5,6 +5,26 @@
 
 ## [![RDX](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+RDX+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
+------
+
+## Setup
+
+
+### deploying, try the following steps
+  
+1.If you dont have a github account create a account. Click [GITHUB SIGN UP](https://github.com/signup/)
+
+2.Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
+
+3.If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+
+4.Click [FORK](https://github.com/PRINCE-SER/prince_ser/fork)
+
+5.Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change KINGS-AS with your github username and click go<br>
+
+6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
+
+------
 
   <p align="center">
 <a href="https://github.com/KINGS-AS"><img title="Author" src="https://img.shields.io/badge/Author-KINGS-AS/RDX?color=blue&style=for-the-badge&logo=whatsapp"></a>
@@ -29,27 +49,6 @@ Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it
 <a href="#"><img title="MAINTENED" src="https://img.shields.io/badge/UNMAINTENED-YES-blue.svg"</a>
 </p>
 
-------
-
-## Setup
-<div align="center">
-
-  ### Simple Method
-
-1. [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@KINGS-AS/RDX-QR)
-
-2. Click [FORK](https://github.com/KINGS-AS/RDX/fork)
-
-3. Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change KINGS-AS with your github username and click GO<br>
-  
- </div>
-<br>
-<br >
- 
-<div align="center">
-
-
-------
 
 
 
