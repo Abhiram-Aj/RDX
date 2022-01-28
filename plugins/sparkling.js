@@ -1,7 +1,7 @@
 /* Copyright (C) 2021 KINGS-AS.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-OXYMORON*/
+RDX*/
 
 const Asena = require('../events');
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys');
@@ -16,9 +16,9 @@ if (Config.WORKTYPE == 'private') {
 
     if (match[1] === '') return await message.sendMessage(need);
 
-    var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${encodeURIComponent(match[1])}&text2=OXYMORON`, { responseType: 'arraybuffer' })
+    var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${encodeURIComponent(match[1])}&text2=RDX`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by OXYMORON*' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RDX*' })
 
   }));
 }
@@ -29,9 +29,9 @@ else if (Config.WORKTYPE == 'public') {
 
     if (match[1] === '') return await message.sendMessage(need);
 
-    var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${encodeURIComponent(match[1])}&text2=OXYMORON`, { responseType: 'arraybuffer' })
+    var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/sparkling?text1=${encodeURIComponent(match[1])}&text2=RDX`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by OXYMORON*' })
+    await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*Made by RDX*' })
 
   }));
 
