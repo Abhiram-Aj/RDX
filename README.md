@@ -6,21 +6,24 @@
 ## [![RDX](https://readme-typing-svg.herokuapp.com?font=Road+Rage&color=0000FF&lines=Welcome+to+RDX+WA+Bot+repo;Created+by+ABHIRAM+SACHU;This+is+the+Best++Bgm+bot;With+more+features)](https://bit.ly/2VM4lxF)
 
 ------
-
+  
 ## Setup
 
 
-### deploying, try the following steps
+  ### If there is an error deploying, try the following steps
   
-1.If you dont have a github account create a account. Click [GITHUB SIGN UP](https://github.com/signup/)
+1. If you dont have a github account create a account. Click [GIT HUB SIGN UP](https://github.com/signup/)
 
-2.Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
+2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@SarandevSarand1/Prince)
+ 
+3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 
-3.If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+4. You will have to fork this git to deploy via Heroku.
+  click to fork the git into your account
+ Click [FORK](https://github.com/PRINCE-SER/prince_ser/fork)
 
-4.Click [FORK](https://github.com/PRINCE-SER/prince_ser/fork)
+5. Now https://heroku.com/deploy?template=https://github.com/PRINCE-SER/prince_ser copy this url and change PRINCE-SER with your github username and click go<br>
 
-5.Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change KINGS-AS with your github username and click go<br>
 
 6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
 
