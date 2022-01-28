@@ -2,7 +2,7 @@
     "__ASENAJSON__": true,
     "LANGUAGE": "Manglish",
     "LANGCODE": "ml",
-    "AUTHOR": "Afnan-plk",
+    "AUTHOR": "KINGS-AS",
     "STRINGS": {
         "_asena": {
             "COMMAND": "Command",
@@ -72,9 +72,9 @@
             "MUST_TEXT": "```eathellum oru messagin reply cheyyu```"
         },
         "heroku": {
-            "RESTART_DESC": "\nRestart OXYMORON\n",
+            "RESTART_DESC": "\nRestart RDX\n",
             "RESTART_MSG": "```punararambikkunu...```",
-            "SHUTDOWN_DESC": "\nShutdown OXYMORON\n",
+            "SHUTDOWN_DESC": "\nShutdown RDX\n",
             "SHUTDOWN_MSG": "```adach poottunnu ⛔```",
             "DYNO_DESC": "heroku dyno kanaan ",
             "DYNO_TOTAL": "```motham Quota```",
@@ -217,13 +217,13 @@
         "updater": {
             "UPDATER_DESC": "update indo enn ariyaan.",
             "UPDATE": "*ningalude bot up-to-date aan!*",
-            "NEW_UPDATE": "*OXYMORON Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
+            "NEW_UPDATE": "*RDX Puthiya Update Vannittund* \n\n update cheyummathin munb support groupil chodhikkuka , allenkkil error veran chance und\n\nChanges:\n```",
             "UPDATE_NOW_DESC": "botine update cheyaan.",
-            "RDX OXYMORON Updating": "```RDX OXYMORON Updating..🐥```",
+            "RDX RDX Updating": "```RDX RDX Updating..🐥```",
             "INVALID_HEROKU": "*❌ ningal thanna Heroku information thett aan !*",
             "UPDATED": "* RDX Updated 🤠✅*",
             "UPDATED_LOCAL": "*✅ vijayagaramayi Update cheythu!*",
-            "AFTER_UPDATE": "*😎 OXYMORON Restarting..*"
+            "AFTER_UPDATE": "*😎 RDX Restarting..*"
         },
         "weather": {
             "WEATHER_DESC": "ningal therrunna sthalathe kaalavastha kaanikkum.",
