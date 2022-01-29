@@ -14,15 +14,15 @@
   
 1. If you dont have a github account create a account. Click [GIT HUB SIGN UP](https://github.com/signup/)
 
-2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@SarandevSarand1/Prince)
+2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
  
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 
 4. You will have to fork this git to deploy via Heroku.
   click to fork the git into your account
- Click [FORK](https://github.com/PRINCE-SER/prince_ser/fork)
+ Click [FORK](https://github.com/KINGS-AS/RDX/fork)
 
-5. Now https://heroku.com/deploy?template=https://github.com/PRINCE-SER/prince_ser copy this url and change PRINCE-SER with your github username and click go<br>
+5. Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change PRINCE-SER with your github username and click go<br>
 
 
 6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
