@@ -1,7 +1,8 @@
 <div align="center"
 
 
-[![KINGS-AS](https://telegra.ph/file/7c94b6caec81a6e7e521e.jpg?size=100000)](https://github.com/KINGS-AS)
+ ![RDX BOT](SAVE_20220130_110412.jpg?size=1500)
+
 
   ### TOTAL REPO VIEWS♦
 
