@@ -15,37 +15,19 @@
   
 ## Setup
 
-
-  ### If there is an error deploying, try the following steps
-  
-1. If you dont have a github account create a account. Click [GIT HUB SIGN UP](https://github.com/signup/)
-
-2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
+1. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
  
-3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+2. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 
-4. You will have to fork this git to deploy via Heroku.
-  click to fork the git into your account
- Click [FORK](https://github.com/KINGS-AS/RDX/fork)
+3. [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Npm-install-package/deploye.git)
+     
 
-5. Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change PRINCE-SER with your github username and click go<br>
+4.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
 
-
-6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
 
 ------
 
-  <p align="center">
-<a href="https://github.com/KINGS-AS"><img title="Author" src="https://img.shields.io/badge/Author-KINGS-AS/RDX?color=blue&style=for-the-badge&logo=whatsapp"></a>
-</p>
-</div>
-<p align="center">
-Project created by <a href="https://github.com/KINGS-AS">KINGS-AS</a> to make it public
-    <br>
-       | © |
-        Reserved |
-    <br> 
-</p>
+
 
   <p align="center">
   <a href="httsp://github.com/KINGS-AS/RDX">
