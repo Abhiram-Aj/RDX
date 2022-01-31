@@ -1,5 +1,5 @@
 {
-  "name": "RDX-Bot",
+  "name": "RDX",
   "version": "1.0.0",
   "description": "RDX whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
   "main": "./RDX/bot.js",
