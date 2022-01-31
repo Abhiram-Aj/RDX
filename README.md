@@ -1,7 +1,7 @@
 <div align="center"
 
 
- ![RDX BOT](1643617898331.png?size=7500)
+ ![RDX BOT](1643617898331.png?size=1)
 
 
   ### TOTAL REPO VIEWS♦
