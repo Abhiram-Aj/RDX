@@ -27,6 +27,7 @@ module.exports = {
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     AUTOSTICKER: process.env.AUTO_STICKER === undefined ? 'true' : process.env.AUTO_STICKER,
     PLK: process.env.OWNER_NAME === undefined ? 'KING-AS' : process.env.OWNER_NAME,
+    BC: process.env.BROADCAST_NAME === undefined ? '⁩ɪ.ᴀᴍ ʀᴅx' : process.env.BROADCAST_NAME,    
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     BOT_PRESENCE: process.env.BOT_PRESENCE === undefined ? 'online' : process.env.BOT_PRESENCE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
