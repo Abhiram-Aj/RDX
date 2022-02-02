@@ -9,16 +9,19 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
     var skl = await axios.get("https://telegra.ph/file/991a06ce548b9bf7d5185.jpg", { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `RDX Bot Created By Abhiram Sachu
+    await message.sendMessage(Buffer(skl.data), MessageType.image, {mimetype: Mimetype.png, caption: `RDX BOT CREATED BY ABHIRAM SACHU 
 
+🌐CREATOR NUMBER : wa.me/18254138025
 
-🌐Creator number : wa.me/917736771516
+🌐GITHUB LINK : https://bit.ly/3g7eDix
 
-🌐RDX UPGRADE VERSION COMING SOON
+🌐 GROUP LINK : https://bit.ly/3Heg6PY
+
+🌐 AND THANKS TO MY  COLLABORATORS 🥰
 
 🌐THANKS TO SUPPORT 😊🥰
 
-©𝚁𝙳𝚇 𝙱𝙾𝚃
+🌐RDX BOT🌐
 `}) 
 
 }));
