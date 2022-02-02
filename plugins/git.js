@@ -13,7 +13,9 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: "Gives github link of the
 
 🌐CREATOR NUMBER : wa.me/18254138025
 
-🌐GITHUB LINK : https://bit.ly/3g7eDix
+🌐WEBSITE LINK : https://bit.ly/3rnlWcu
+
+🌐GIT LINK : https://bit.ly/348VMRP
 
 🌐 GROUP LINK : https://bit.ly/3Heg6PY
 
