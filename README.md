@@ -1,9 +1,6 @@
 <div align="center"
 
 
- ![RDX BOT](20220130_201526.png?size=1)
-
-
   ### TOTAL REPO VIEWS♦
 
 ![Visitor Count](https://profile-counter.glitch.me/KINGS-AS/count.svg)
@@ -15,20 +12,25 @@
   
 ## Setup
 
-1. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
+
+  ### If there is an error deploying, try the following steps
+  
+1. If you dont have a github account create a account. Click [GITHUB SIGN UP](https://github.com/signup/)
+
+2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/RDX-QR)
  
-2. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 
-3. ## Server 1
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/deploye.git)
-  ##  Server 2  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KINGS-AS/KING-AS/RDX-deploy-.git)
+4. You will have to fork this git to deploy via Heroku.
+  click to fork the git into your account
+ Click [FORK](https://github.com/KINGS-AS/RDX/fork)
 
-4.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and message me 
+5. Now https://heroku.com/deploy?template=https://github.com/KINGS-AS/RDX copy this url and change KINGS-AS with your github username and click go<br>
 
+
+6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
 
 ------
-
 
 
   <p align="center">
