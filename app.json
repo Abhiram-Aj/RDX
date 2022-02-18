@@ -71,6 +71,11 @@
             "required": false,
             "value": "𝐑𝐃𝐗"
         },
+        "ALL_IMG": {
+            "description": "You can change all image",
+            "required": false,
+            "value": "https://i.imgur.com/A4q8lYr.jpeg"
+        },
         "FULL_EVA": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
