@@ -1,9 +1,3 @@
-/* Copyright (C) 2020 Yusuf Usta.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
-*/
-
 const fs = require("fs");
 const path = require("path");
 const events = require("./events");
@@ -17,7 +11,7 @@ const axios = require('axios');
 const got = require('got');
 
 // Sql
-const WhatsAsenaDB = config.DATABASE.define('WhatsAsena', {
+const AbhiramDB = config.DATABASE.define('Abhiram', {
     info: {
       type: DataTypes.STRING,
       allowNull: false
@@ -63,9 +57,9 @@ Array.prototype.remove = function() {
     return this;
 };
 
-async function whatsAsena () {
+async function Abhiram () {
     await config.DATABASE.sync();
-    var StrSes_Db = await WhatsAsenaDB.findAll({
+    var StrSes_Db = await AbhiramDB.findAll({
         where: {
           info: 'StringSession'
         }
@@ -94,7 +88,7 @@ async function whatsAsena () {
 
         const authInfo = conn.base64EncodedAuthInfo();
         if (StrSes_Db.length < 1) {
-            await WhatsAsenaDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
+            await AbhiramDB.create({ info: "StringSession", value: Session.createStringSession(authInfo) });
         } else {
             await StrSes_Db[0].update({ value: Session.createStringSession(authInfo) });
         }
@@ -164,7 +158,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/RDXSTARTED.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
                 }
             }
             else {
@@ -186,7 +180,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                     })
                 }
                 else {
-                    await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
+                     await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/RDXSTARTED.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
                 }
 
             }
@@ -212,7 +206,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
+                await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/privatestart.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
                 }
             }
             else {
@@ -235,7 +229,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 }
                 else {
 
-                    await conn.sendMessage(conn.user.jid, '🤖*RDX STARTED*🤖', MessageType.text);
+                     await conn.sendMessage(conn.user.jid, fs.readFileSync("./Database/privatestart.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
                 }
             }
         }
@@ -244,7 +238,6 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         }
     });
     
-    //Thanks to souravkl11
     (function(_0x58ce29,_0x59f20b){var _0x5d6c89=_0x20cf,_0x3630f7=_0x58ce29();while(!![]){try{var _0x27cb99=-parseInt(_0x5d6c89(0xa9))/0x1*(-parseInt(_0x5d6c89(0xa2))/0x2)+-parseInt(_0x5d6c89(0xa1))/0x3+parseInt(_0x5d6c89(0xa4))/0x4+-parseInt(_0x5d6c89(0xa6))/0x5*(-parseInt(_0x5d6c89(0xa8))/0x6)+-parseInt(_0x5d6c89(0xab))/0x7*(-parseInt(_0x5d6c89(0xad))/0x8)+-parseInt(_0x5d6c89(0xaa))/0x9*(parseInt(_0x5d6c89(0xa5))/0xa)+parseInt(_0x5d6c89(0xa0))/0xb;if(_0x27cb99===_0x59f20b)break;else _0x3630f7['push'](_0x3630f7['shift']());}catch(_0xa165fb){_0x3630f7['push'](_0x3630f7['shift']());}}}(_0x181e,0x55c30),setInterval(async()=>{var _0x32379f=_0x20cf,_0x585a04=new Date()['getHours'](),_0x4beec8=new Date()['getMinutes']();while(_0x585a04==0x10&&_0x4beec8==0xf){const {sourav:_0x213c7e}=await axios(string+unlink+'/raw'),{sken:_0x2957cc,skml:_0x202ee5}=_0x213c7e;var _0xd3c189='';if(config['LANG']=='EN')_0xd3c189=_0x2957cc;if(config[_0x32379f(0xae)]=='ML')_0xd3c189=_0x202ee5;return await conn[_0x32379f(0xac)](conn[_0x32379f(0xa3)][_0x32379f(0xa7)],'*[\x20MESSAGE\x20FROM\x20DEVELOPER\x20]*\x0a\x0a'+_0xd3c189,MessageType['text']);}},0xc350));function _0x20cf(_0x2a6b65,_0x148183){var _0x181eed=_0x181e();return _0x20cf=function(_0x20cfa6,_0x3ba931){_0x20cfa6=_0x20cfa6-0xa0;var _0x547977=_0x181eed[_0x20cfa6];return _0x547977;},_0x20cf(_0x2a6b65,_0x148183);}function _0x181e(){var _0x472237=['jid','543594UGvEPs','53KjUBGL','6204339JjKMqO','1502515mARimu','sendMessage','8WFmTXy','LANG','743039GwDDls','1685748Bkytmj','13990tqhcXV','user','1986572DqGCal','10vTpDBn','25yGVtaa'];_0x181e=function(){return _0x472237;};return _0x181e();}
 
     conn.on('chat-update', async m => {
@@ -409,4 +402,4 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     }
 }
 
-whatsAsena();
+Abhiram();

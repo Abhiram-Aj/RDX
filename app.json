@@ -145,13 +145,13 @@
             "value": "false"
         },
         "REMOVE_BG_API_KEY": {
-            "description": "https://remove.bg code👉 mPpurrUYTUeznpWU6Ercz4nu 👈this code for u copy and paste  and enjoy",
+            "description": "https://remove.bg code👉 hVCTFkJAzfbnaypBHLgqhFbe 👈this code for u copy and paste ",
             "required": false
         },
         "ALIVE_MESSAGE": {
             "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "╔══╗╔╗─╔══╗╔╗─╔╗╔═╗ ║╔╗║║║─╚║║╝║╚╦╝║║╦╝ ║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗ ╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝\n\nHey ♥️ help message type .menu .help .list ♥️🥰\n\n🌐RDX UPGRADED VERSION COMING SOON🌐\n\n\n©RDX BOT"
+            "value": "╔══╗╔╗─╔══╗╔╗─╔╗╔═╗ ║╔╗║║║─╚║║╝║╚╦╝║║╦╝ ║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗ ╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝\n\nHey ♥️ help message type .menu .help .list ♥️🥰\n\n\n©RDX BOT"
         },
         "BAN_MESSAGE": {
             "description": "Customizable Ban Message! Use => default, to change back.",

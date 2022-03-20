@@ -1,6 +1,6 @@
 {
   "name": "RDX",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "RDX whatsapp bot provides a bunch of bgms and features to your whatsapp account.",
   "main": "./RDX/bot.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KINGS-AS/RDX.git"
+    "url": "git+https://github.com/Abhiram-Aj/RDX.git"
   },
   "keywords": [
     "WhatsApp",
@@ -19,7 +19,7 @@
   "developer": "Abhiram Sachu / @phaticusthiccy",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/KINGS-AS/RDX/issues"
+    "url": "https://github.com/Abhiram-Aj/RDX/issues"
   },
   "homepage": "https://github.com/phaticusthiccy/WhatsAsenaDuplicated#readme",
   "dependencies": {

@@ -18,7 +18,7 @@
   
 1. If you dont have a github account create a account. Click [GITHUB SIGN UP](https://github.com/signup/)
 
-2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/Abhiram)
+2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@Abhiram-Aj/RDX-QR)
  
 3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
 
