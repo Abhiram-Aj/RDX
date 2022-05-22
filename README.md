@@ -1,35 +1,20 @@
 <div align="center"
 
- ![RDX BOT](SAVE_20220130_110412.jpg?size=1500)
-
-  ### TOTAL REPO VIEWS♦
-
-![Visitor Count](https://profile-counter.glitch.me/Abhiram-Aj/count.svg)
-  
-### TOTAL WEBSITE VISIT🌐
-  [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://rdx-whtsapp-bot-website.yolasite.com/&count_bg=%2379C83D&title_bg=%23030303&icon=webauthn.svg&icon_color=%23FFFAFA&title=WEBSITE+VISITORS&edge_flat=false)](https://rdx-whtsapp-bot-website.yolasite.com/)
-
-------
-  
 ## Setup
 
 
   ### If there is an error deploying, try the following steps
-  
-1. If you dont have a github account create a account. Click [GITHUB SIGN UP](https://github.com/signup/)
 
-2. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/Abhiram)
- 
-3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+1. Open the WhatsApp account where you want to create the bot and go into the link device and SCAN the QR code Click [SCAN](https://replit.com/@KINGS-AS/Abhiram)
 
-4. You will have to fork this git to deploy via Heroku.
+4
+2. You will have to fork this git to deploy via Heroku.
   click to fork the git into your account
  Click [FORK](https://github.com/Abhiram-Aj/RDX/fork)
 
-5. Now https://heroku.com/deploy?template=https://github.com/Abhiram-Aj/RDX copy this url and change Abhiram-Aj with your github username and click go<br>
+3. Now https://heroku.com/deploy?template=https://github.com/Abhiram-Aj/RDX copy this url and change Abhiram-Aj with your github username and click go<br>
 
-
-6.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
+4.This method not working click [Whtsapp Number](https://wa.me/qr/CYBN2KFKQTAIN1) Save my number and massage me 
 
 ------
 
